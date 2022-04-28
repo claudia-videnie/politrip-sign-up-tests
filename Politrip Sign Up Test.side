@@ -1,0 +1,938 @@
+{
+  "id": "9b1d5eaf-b0be-424d-ba8a-d48b94d9a2f7",
+  "version": "2.0",
+  "name": "Politrip Sign Up Test",
+  "url": "https://politrip.com/account/sign-up",
+  "tests": [{
+    "id": "5aee1f48-ca6b-4414-a1b0-e630d04ea20c",
+    "name": "Sign Up as Participant",
+    "commands": [{
+      "id": "5efc646a-f5c5-4685-81c9-003032109db5",
+      "comment": "",
+      "command": "open",
+      "target": "https://politrip.com/account/sign-up",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "436565d2-fad6-48f1-acb8-6db48af7cb89",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed07eb46-4372-403c-8003-1dae91b6f353",
+      "comment": "",
+      "command": "click",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=first-name", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-first-name-div']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cc9b53e-a784-408c-9ba6-8fb2beba0757",
+      "comment": "",
+      "command": "type",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=first-name", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-first-name-div']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ana"
+    }, {
+      "id": "9a2437f9-c610-426e-afeb-63d658a3a3f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=last-name", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-last-name-div']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fad5b96c-107a-4cf9-ae80-340eecf40ca9",
+      "comment": "",
+      "command": "type",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=last-name", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-last-name-div']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Popescu"
+    }, {
+      "id": "ee51b56d-1b4f-4f58-8a81-30e2a121206f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-email-div']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1febdce0-272e-4d55-830a-beb6b876f04b",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-email-div']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "ana.popescu3@test.com"
+    }, {
+      "id": "7c0a2642-34fb-4781-a879-6c2474a6ff4b",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-password-input",
+      "targets": [
+        ["id=sign-up-password-input", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ab9dea2-bca1-4003-b4b1-be25c945dfa1",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up-password-input",
+      "targets": [],
+      "value": "GcLwVuaZb5UQ3TM"
+    }, {
+      "id": "aaa96d2a-0a3e-483b-a764-a551f35a9773",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-confirm-password-input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95f61f26-fbe3-413f-bec7-9f06fc5d8c6f",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up-confirm-password-input",
+      "targets": [
+        ["id=sign-up-confirm-password-input", "id"],
+        ["css=#sign-up-confirm-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-confirm-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-confirm-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "GcLwVuaZb5UQ3TM"
+    }, {
+      "id": "11076109-38cc-4473-9be8-49c59610c152",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.button-label",
+      "targets": [
+        ["css=.button-label", "css:finder"],
+        ["xpath=//button[@id=' qa_loader-button']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c4abac6-7cd9-44ef-892b-3293c47f9b3a",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=sign-up-confirm-password-label",
+      "targets": [
+        ["id=sign-up-confirm-password-label", "id"],
+        ["css=#sign-up-confirm-password-label", "css:finder"],
+        ["xpath=//label[@id='sign-up-confirm-password-label']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-confirm-password-div']/label", "xpath:idRelative"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Confirm Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6b4ff49-fb3b-4bf8-bc93-4df62031506a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-label",
+      "targets": [
+        ["css=.button-label", "css:finder"],
+        ["xpath=//button[@id=' qa_loader-button']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5851c7b2-bae0-436e-9d5f-17e077f66fc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#qa_signup-participant .benefits",
+      "targets": [
+        ["css=#qa_signup-participant .benefits", "css:finder"],
+        ["xpath=//div[@id='qa_signup-participant']/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Start improving right now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e74ec1f3-4f46-4430-86f8-03b47a890bf6",
+    "name": "Sign Up as Organizer",
+    "commands": [{
+      "id": "4785b6be-8e27-452e-8c17-f1ac0f8f6967",
+      "comment": "",
+      "command": "open",
+      "target": "https://politrip.com/account/sign-up",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76e8862d-eccf-43ea-aad5-520f25d784b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3eeaaf9-9aea-4259-a560-d8b0e30b4339",
+      "comment": "",
+      "command": "click",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=first-name", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-first-name-div']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58e63aa9-2c19-4557-89bf-49e1d2b7e3af",
+      "comment": "",
+      "command": "type",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=first-name", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-first-name-div']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Maria"
+    }, {
+      "id": "492c33cc-cd79-49d2-9b5a-21222350e702",
+      "comment": "",
+      "command": "click",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=last-name", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-last-name-div']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2b630d8-4e24-49be-88e2-2e5dde2abe90",
+      "comment": "",
+      "command": "type",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=last-name", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-last-name-div']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Popa"
+    }, {
+      "id": "ee61a896-69f9-4270-b517-5d63eaedb839",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-email-div']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f74f5ff2-16e4-4c7a-96c1-b0635e6a76c2",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-email-div']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "maria.popa2@test.com"
+    }, {
+      "id": "cfa70a52-9d23-4172-974c-eb7e42d7f916",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-password-input",
+      "targets": [
+        ["id=sign-up-password-input", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c749e3ce-96c8-4d29-9159-60bcad9295b6",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up-password-input",
+      "targets": [],
+      "value": "GcLwVuaZb5UQ3TM"
+    }, {
+      "id": "a828f361-64ed-4ff4-8d54-ad4e06571a48",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-confirm-password-input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa639240-c5a3-4135-b5ac-07fa26893d40",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up-confirm-password-input",
+      "targets": [
+        ["id=sign-up-confirm-password-input", "id"],
+        ["css=#sign-up-confirm-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-confirm-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-confirm-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "GcLwVuaZb5UQ3TM"
+    }, {
+      "id": "a51f5d55-a012-4aa6-8ef0-0a4c0ad64c89",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.button-label",
+      "targets": [
+        ["css=.button-label", "css:finder"],
+        ["xpath=//button[@id=' qa_loader-button']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce1522e1-8dc3-4810-b026-a568088095d7",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=sign-up-heard-div",
+      "targets": [
+        ["id=sign-up-heard-div", "id"],
+        ["css=#sign-up-heard-div", "css:finder"],
+        ["xpath=//div[@id='sign-up-heard-div']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-form-container']/form/div[6]", "xpath:idRelative"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca857b69-52da-419e-b41b-b8c2a369ad0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-label",
+      "targets": [
+        ["css=.button-label", "css:finder"],
+        ["xpath=//button[@id=' qa_loader-button']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e59871ed-7f04-4915-9606-0754e95cef0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#qa_signup-organizer h4",
+      "targets": [
+        ["css=#qa_signup-organizer h4", "css:finder"],
+        ["xpath=//div[@id='qa_signup-organizer']/div/h4", "xpath:idRelative"],
+        ["xpath=//div[3]/div/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Organizer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c9b42e87-ac89-4d52-973c-b6cc7cc5a563",
+    "name": "Used e-mail address",
+    "commands": [{
+      "id": "aee2921a-bbfe-411b-9f5e-57b7ef3e4e71",
+      "comment": "",
+      "command": "open",
+      "target": "https://politrip.com/account/sign-up",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f14236f4-d431-42b0-950c-69a987e58a4a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "665x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af6e4fc2-e784-450f-8944-6d6a9a908111",
+      "comment": "",
+      "command": "click",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=first-name", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-first-name-div']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2194c8c1-2f21-4589-8ecb-d71f92903125",
+      "comment": "",
+      "command": "type",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=first-name", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-first-name-div']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Maria"
+    }, {
+      "id": "74f14356-9ede-4a30-8fe3-ccc5a0be5e9e",
+      "comment": "",
+      "command": "click",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=last-name", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-last-name-div']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a5b8bf5-a20d-42ba-b7eb-7f3b573c1215",
+      "comment": "",
+      "command": "type",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=last-name", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-last-name-div']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Popa"
+    }, {
+      "id": "1cfdd8f2-fe8e-4e36-a447-d38d13b71f1d",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-email-div']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe09bee9-c045-4b03-a14d-dd4019b66e69",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-email-div']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "maria.popa2@test.com"
+    }, {
+      "id": "1cee9a18-5f3f-4dbd-b795-c14afeb9c7ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-confirm-password-input",
+      "targets": [
+        ["id=sign-up-confirm-password-input", "id"],
+        ["css=#sign-up-confirm-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-confirm-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-confirm-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46546769-0c66-47e3-9ec0-39c31b1700d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-confirm-password-input",
+      "targets": [
+        ["id=sign-up-confirm-password-input", "id"],
+        ["css=#sign-up-confirm-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-confirm-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-confirm-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ebfe75c-35a1-4ac6-8be7-59a54aab38fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-password-input",
+      "targets": [
+        ["id=sign-up-password-input", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "589725f6-da63-4999-b5c2-eb3f98e36bab",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up-confirm-password-input",
+      "targets": [
+        ["id=sign-up-confirm-password-input", "id"],
+        ["css=#sign-up-confirm-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-confirm-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-confirm-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "GcLwVuaZb5UQ3TM"
+    }, {
+      "id": "34573a6d-c377-48df-8867-4a9a3f1fd9fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-label",
+      "targets": [
+        ["css=.button-label", "css:finder"],
+        ["xpath=//button[@id=' qa_loader-button']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "182c260b-a8fb-4758-aba1-2b278254cbc3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=sign-up-error-div",
+      "targets": [
+        ["id=sign-up-error-div", "id"],
+        ["css=#sign-up-error-div", "css:finder"],
+        ["xpath=//div[@id='sign-up-error-div']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-form-container']/form/div[7]/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2f78bed2-bdc4-4dd0-880a-f7b15678b561",
+    "name": "Invalid e-mail address",
+    "commands": [{
+      "id": "c11d8440-2a90-48ff-9bb8-9cc406753eb4",
+      "comment": "",
+      "command": "open",
+      "target": "https://politrip.com/account/sign-up",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b7613c8-333d-4124-b8d2-b31d145e40b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "665x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0020579-f179-4ac8-92a2-148ef080ad8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-email-div']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59214556-2fa4-4f7e-9d06-1853a7c4cde8",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-email-div']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "popescu"
+    }, {
+      "id": "6dd251f7-7087-4a67-b638-21d4d57f8041",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#sign-up-email-div > .ng-invalid:nth-child(3)",
+      "targets": [
+        ["css=#sign-up-email-div > .ng-invalid:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='sign-up-email-div']/app-form-control-error-message", "xpath:idRelative"],
+        ["xpath=//div[3]/app-form-control-error-message", "xpath:position"],
+        ["xpath=//app-form-control-error-message[contains(.,' Please enter a valid email address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4c181b5a-21b9-4e40-aca4-c72ac2e9e348",
+    "name": "Invalid Password - too short",
+    "commands": [{
+      "id": "04bfe071-d04a-4aa5-8b11-2c1d4213f7ba",
+      "comment": "",
+      "command": "open",
+      "target": "https://politrip.com/account/sign-up",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa1968cb-6852-481a-bda8-d5fe028a680f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "665x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c82b2f06-8b5c-4a46-8d1f-1d644f530db1",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-password-input",
+      "targets": [
+        ["id=sign-up-password-input", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd4dc371-3369-4303-82a5-479c43763a0b",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up-password-input",
+      "targets": [
+        ["id=sign-up-password-input", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "abc"
+    }, {
+      "id": "17ba0149-f313-4773-8683-8e1eb69c0c40",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#sign-up-password-div > .ng-invalid:nth-child(3)",
+      "targets": [
+        ["css=#sign-up-password-div > .ng-invalid:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='sign-up-password-div']/app-form-control-error-message", "xpath:idRelative"],
+        ["xpath=//div[4]/app-form-control-error-message", "xpath:position"],
+        ["xpath=//app-form-control-error-message[contains(.,' Password must contain at least 8 characters, 1 uppercase letter, 1 lowercase letter and 1 digit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a0fa69f7-6f43-4c0f-89cb-656da0cb3d0c",
+    "name": "Invalid Password - no upper",
+    "commands": [{
+      "id": "aba4096f-6d4d-4ac8-990e-9c20f3e53111",
+      "comment": "",
+      "command": "open",
+      "target": "https://politrip.com/account/sign-up",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff93dd66-1913-4e0b-8568-8ae537b9ef81",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "665x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7ab79ac-5aad-413b-8fb3-0005b2d1e28d",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-password-input",
+      "targets": [
+        ["id=sign-up-password-input", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccc28cd7-68f2-4ebc-99d9-d153ea779e02",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up-password-input",
+      "targets": [
+        ["id=sign-up-password-input", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "ABCDEFGH1"
+    }, {
+      "id": "1f87d3ac-8433-47ea-b1ab-9b6f0872635d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#sign-up-password-div > .ng-invalid:nth-child(3)",
+      "targets": [
+        ["css=#sign-up-password-div > .ng-invalid:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='sign-up-password-div']/app-form-control-error-message", "xpath:idRelative"],
+        ["xpath=//div[4]/app-form-control-error-message", "xpath:position"],
+        ["xpath=//app-form-control-error-message[contains(.,' Password must contain at least 8 characters, 1 uppercase letter, 1 lowercase letter and 1 digit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "01d2f052-b4cb-4114-99df-9280d84d3002",
+    "name": "Invalid Password - no lower",
+    "commands": [{
+      "id": "5240d0e7-1bab-441b-88df-3f3d237dca56",
+      "comment": "",
+      "command": "open",
+      "target": "https://politrip.com/account/sign-up",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52bc5909-1aa5-4841-b89c-b90ef0e74e44",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "665x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6e5d0ca-a8d2-47fa-98e8-1015570d9f20",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-password-input",
+      "targets": [
+        ["id=sign-up-password-input", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec8f3d84-9b16-4e98-b4ec-f2cb21c98f94",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up-password-input",
+      "targets": [
+        ["id=sign-up-password-input", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "abcdefgh1"
+    }, {
+      "id": "22bc7da4-9238-469c-aaa4-05e9e239a64d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#sign-up-password-div > .ng-invalid:nth-child(3)",
+      "targets": [
+        ["css=#sign-up-password-div > .ng-invalid:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='sign-up-password-div']/app-form-control-error-message", "xpath:idRelative"],
+        ["xpath=//div[4]/app-form-control-error-message", "xpath:position"],
+        ["xpath=//app-form-control-error-message[contains(.,' Password must contain at least 8 characters, 1 uppercase letter, 1 lowercase letter and 1 digit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "16b10f93-7c15-429e-b6e6-3e1aa4f06d19",
+    "name": "Invalid Password - no digit",
+    "commands": [{
+      "id": "ad4acead-6e7a-4438-8ac2-8ebb8cb55ac6",
+      "comment": "",
+      "command": "open",
+      "target": "https://politrip.com/account/sign-up",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb230cc3-d659-4ad7-b5d7-7a584223f2b2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "665x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02e2c31a-70b8-4dab-8361-9eea9b568630",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-password-input",
+      "targets": [
+        ["id=sign-up-password-input", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee988c40-0a50-4dde-bdeb-3b7ce043df4b",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up-password-input",
+      "targets": [
+        ["id=sign-up-password-input", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "abcdefgh"
+    }, {
+      "id": "421268ca-8a7b-4990-8352-59e37b673071",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#sign-up-password-div > .ng-invalid:nth-child(3)",
+      "targets": [
+        ["css=#sign-up-password-div > .ng-invalid:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='sign-up-password-div']/app-form-control-error-message", "xpath:idRelative"],
+        ["xpath=//div[4]/app-form-control-error-message", "xpath:position"],
+        ["xpath=//app-form-control-error-message[contains(.,' Password must contain at least 8 characters, 1 uppercase letter, 1 lowercase letter and 1 digit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7046ff1b-fa02-490b-a3ce-e97f6c7e82d2",
+    "name": "Invalid Password confirmation",
+    "commands": [{
+      "id": "fa2b1eb2-9ae7-41aa-9644-23b39982b2ac",
+      "comment": "",
+      "command": "open",
+      "target": "https://politrip.com/account/sign-up",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41c76102-21b5-44c8-b2fe-e9242b371287",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c231e00-3f82-4388-89a9-131a459ea737",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-password-input",
+      "targets": [
+        ["id=sign-up-password-input", "id"],
+        ["name=password", "name"],
+        ["css=#sign-up-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cf3fe3b-5572-4e7a-aa6b-c1230477bd6f",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up-password-input",
+      "targets": [],
+      "value": "GcLwVuaZb5UQ3TM"
+    }, {
+      "id": "b009b713-0854-4224-939d-98ec67ed782d",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-up-confirm-password-input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e95b1f46-abf2-41af-b78b-dadd4b537ff7",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-up-confirm-password-input",
+      "targets": [
+        ["id=sign-up-confirm-password-input", "id"],
+        ["css=#sign-up-confirm-password-input", "css:finder"],
+        ["xpath=//input[@id='sign-up-confirm-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='sign-up-confirm-password-div']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "GcLwVuaZb5UQ3T"
+    }, {
+      "id": "5c22313e-b43c-46f6-9af5-ab1c3eeacc14",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#sign-up-confirm-password-div > .ng-invalid:nth-child(3)",
+      "targets": [
+        ["css=#sign-up-confirm-password-div > .ng-invalid:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='sign-up-confirm-password-div']/app-form-control-error-message", "xpath:idRelative"],
+        ["xpath=//div[5]/app-form-control-error-message", "xpath:position"],
+        ["xpath=//app-form-control-error-message[contains(.,' Passwords must match')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ffc93c73-bd65-4548-9994-5980ea8513ca",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["16b10f93-7c15-429e-b6e6-3e1aa4f06d19", "01d2f052-b4cb-4114-99df-9280d84d3002", "a0fa69f7-6f43-4c0f-89cb-656da0cb3d0c", "4c181b5a-21b9-4e40-aca4-c72ac2e9e348", "7046ff1b-fa02-490b-a3ce-e97f6c7e82d2", "2f78bed2-bdc4-4dd0-880a-f7b15678b561", "e74ec1f3-4f46-4430-86f8-03b47a890bf6", "5aee1f48-ca6b-4414-a1b0-e630d04ea20c", "c9b42e87-ac89-4d52-973c-b6cc7cc5a563"]
+  }],
+  "urls": ["https://politrip.com/account/sign-up"],
+  "plugins": []
+}
